@@ -14,3 +14,5 @@
      `cd C:\web3-demo`
    - Инициализируйте проект:
      `npm init -y`
+2. **Установка web3.js:**
+   - `npm install web3`
