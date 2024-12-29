@@ -52,4 +52,11 @@
         truffle init
 2. **Деплой через Truffle:**
 
-Вставьте файл миграции `migrations/2_deploy_contracts.js`
+    - Вставьте файл миграции `migrations/2_deploy_contracts.js`
+    - Выполните миграцию:
+    `truffle migrate --network development`
+
+## 6. Вызов функций смарт-контракта
+1. **С поощью файла `interact.mjs:`**
+2. **Выполните скрипт:** `node interact.mjs`
+![Итоговый вывод должен быть таким: ](blob:https://web.telegram.org/1f4cf335-2de9-41f2-a3df-65b1eb4e15bd)
